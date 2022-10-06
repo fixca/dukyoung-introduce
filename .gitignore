@@ -1,2 +1,7 @@
 *.ttf
 .vscode
+saves
+log.txt
+traceback.txt
+*.rpyc
+*.rpyb
