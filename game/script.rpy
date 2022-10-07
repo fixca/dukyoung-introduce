@@ -53,7 +53,7 @@ init python:
 
     Section(_("경영회계과"))
 
-    Tutorial("introducing_management_first", "경영회계과 1학년은 무엇을 하나요?")
+    Tutorial("introducing_management_first", "경영회계과는 학교에서 무엇을 하나요?")
 
     # Tutorial("introducing_makerspace", _("메이커 스페이스가 어떤 곳인가요?"))
     # Tutorial("introducing_restaurant", _("교내 식당은 어떻게 생겼나요?"))
@@ -62,21 +62,21 @@ init python:
 
     Section(_("보건간호과"))
 
-    Tutorial("introducing_health_first", "보건간호과 1학년은 무엇을 하나요?")
-    Tutorial("introducing_health_company", "보건간호과는 취업을 어디로 할 수 있나요?")
+    Tutorial("introducing_health_first", "보건간호과 학교에서 무엇을 하나요?")
+    # Tutorial("introducing_health_company", "보건간호과는 취업을 어디로 할 수 있나요?")
 
     Section(_("빅데이터과"))
 
-    Tutorial("introducing_dickdata_first", "빅데이터과 1학년은 무엇을 하나요?")
-    Tutorial("introducing_dickdata_company", "빅데이터과는 취업을 어디로 할 수 있나요?")
+    Tutorial("introducing_dickdata_first", "빅데이터과 학교에서 무엇을 하나요?")
+    # Tutorial("introducing_dickdata_company", "빅데이터과는 취업을 어디로 할 수 있나요?")
 
     Section(_("소프트웨어과 (인공지능)"))
 
-    Tutorial("introducing_soft_ai_first", "소프트웨어 (인공지능)과 1학년은 무엇을 하나요?")
+    Tutorial("introducing_soft_ai_first", "소프트웨어 (인공지능)과 학교에서 무엇을 하나요?")
 
     Section(_("소프트웨어과 (정보보안)"))
 
-    Tutorial("introducing_soft_secure_first", "소프트웨어 (정보보안)과 1학년은 무엇을 하나요?")
+    Tutorial("introducing_soft_secure_first", "소프트웨어 (정보보안)과 학교에서 무엇을 하나요?")
     
 
 screen tutorials(adj):
