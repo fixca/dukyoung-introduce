@@ -3,5 +3,3 @@
 saves
 log.txt
 traceback.txt
-*.rpyc
-*.rpyb

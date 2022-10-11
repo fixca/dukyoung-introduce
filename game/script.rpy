@@ -53,30 +53,32 @@ init python:
 
     Section(_("경영회계과"))
 
-    Tutorial("introducing_management_first", "경영회계과는 학교에서 무엇을 하나요?")
-
-    # Tutorial("introducing_makerspace", _("메이커 스페이스가 어떤 곳인가요?"))
-    # Tutorial("introducing_restaurant", _("교내 식당은 어떻게 생겼나요?"))
-    # Tutorial("introducing_classroom_software", _("소프트웨어과의 교실은 어떻게 생겼나요?"))
-    # Tutorial("introducing_bookcafe", _("북카페는 어떻게 생겼나요?"))
+    Tutorial("management_what_they_learn", "무엇을 배우나요?")
+    Tutorial("management_graduate", "취업 위주인건가요?")
+    Tutorial("management_certificate", "관련된 자격증은 학교에서 지원해주나요?")
 
     Section(_("보건간호과"))
 
-    Tutorial("introducing_health_first", "보건간호과 학교에서 무엇을 하나요?")
-    # Tutorial("introducing_health_company", "보건간호과는 취업을 어디로 할 수 있나요?")
+    Tutorial("health_what_they_learn", "무엇을 배우나요?")
+    Tutorial("health_training_on_hospital", "병원 실습을 나가나요?")
+    Tutorial("health_certificate", "자격증은 어떻게 취득하죠?")
+    Tutorial("health_graduate", "졸업 후 진출 분야는 어떻게 되나요?")
 
     Section(_("빅데이터과"))
 
-    Tutorial("introducing_dickdata_first", "빅데이터과 학교에서 무엇을 하나요?")
-    # Tutorial("introducing_dickdata_company", "빅데이터과는 취업을 어디로 할 수 있나요?")
+    Tutorial("dickdata_what_they_learn", "무엇을 배우나요?")
+    Tutorial("dickdata_related_jobs", "관련된 직업은 무엇이 있나요?")
+    Tutorial("dickdata_difference_ai", "인공지능 소프트웨어과와 차이점이 무엇인가요?")
+    Tutorial("dickdata_good_math", "수학을 잘해야만 하나요?")
 
-    Section(_("소프트웨어과 (인공지능)"))
+    Section(_("소프트웨어과"))
 
-    Tutorial("introducing_soft_ai_first", "소프트웨어 (인공지능)과 학교에서 무엇을 하나요?")
-
-    Section(_("소프트웨어과 (정보보안)"))
-
-    Tutorial("introducing_soft_secure_first", "소프트웨어 (정보보안)과 학교에서 무엇을 하나요?")
+    Tutorial("ai_what_they_learn", "무엇을 배우나요?")
+    Tutorial("ai_related_jobs", "관련된 직업은 무엇이 있나요?")
+    Tutorial("ai_after_graduate", "취업이나 진학은 어떻게 할 수 있나요?")
+    Tutorial("ai_certificate", "자격증 취득은 어떻게 할 수 있나요?")
+    Tutorial("ai_can_coding", "코딩을 할 줄 알아야 하나요?")
+    Tutorial("ai_test", "(인공지능) 테스트")
     
 
 screen tutorials(adj):
@@ -116,8 +118,8 @@ screen tutorials(adj):
 
         textbutton _(""):
             xfill True
-            action Return(False)
-            top_margin 10
+            # action Return(False)
+            # top_margin 10
 
 
 # This is used to preserve the state of the scrollbar on the selection
@@ -128,7 +130,7 @@ default tutorials_adjustment = ui.adjustment()
 default tutorials_first_time = True
 
 image testBackGround:
-    im.FactorScale("images/background/test_background.png", 0.31746031746031746031746031746032)
+    im.FactorScale("images/background/main_background.png", 0.31746031746031746031746031746032)
     yalign 0.0
     xalign 0.0
     # "images/background/test_background.png"
